@@ -26,5 +26,16 @@ public class MiniDuckSimulator {
         System.out.println("And I have noise ----");
         modelDuck.setQuackBehavior(new QuackWithXiu());
         modelDuck.performQuack();
+
+        System.out.println("----");
+        Duck d = new Duck() {
+            @Override
+            public void display() {
+                System.out.println("duckCaller");
+            }
+        };
+        d.display();
+        d.setQuackBehavior(new DuckCaller());
+        d.performQuack();
     }
 }
