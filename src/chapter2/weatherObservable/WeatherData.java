@@ -1,4 +1,4 @@
-package chapter1.chapter2.weatherObservable;
+package chapter2.weatherObservable;
 
 import java.util.Observable;
 

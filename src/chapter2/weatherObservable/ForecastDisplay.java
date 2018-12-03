@@ -1,6 +1,6 @@
-package chapter1.chapter2.weatherObservable;
+package chapter2.weatherObservable;
 
-import chapter1.chapter2.weatherStation.DisplayElement;
+import chapter2.weatherStation.DisplayElement;
 
 import java.util.Observable;
 import java.util.Observer;

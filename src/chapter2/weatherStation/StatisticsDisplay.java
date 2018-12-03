@@ -1,4 +1,4 @@
-package chapter1.chapter2.weatherStation;
+package chapter2.weatherStation;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
     private Subject weatherData;
