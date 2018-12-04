@@ -1,0 +1,2 @@
+不同地区有不同风味的pizza，使用工厂模式设计
+DependentPizzaStore是未设计的
