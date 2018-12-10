@@ -36,10 +36,6 @@ public class RemoteControl {
         undoCommand = offCommands[slot];
     }
 
-    public void undoButtonWasPushed() {
-        undoCommand.undo();
-    }
-
 
     public String toString() {
         StringBuffer stringBuff = new StringBuffer();
